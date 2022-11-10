@@ -187,7 +187,7 @@ index 795f567..02c4da8 100644
 +  $(Device/dsa-migration)
 +  $(Device/uimage-lzma-loader)
 +  IMAGE_SIZE := 15808k
-+  DEVICE_VENDOR := jdcloud
++  DEVICE_VENDOR := JDCloud
 +  DEVICE_MODEL := Luban 鲁班
 +  DEVICE_PACKAGES += kmod-mt7915e uboot-envtools wpad-mini -wpad-basic-wolfssl -coremark -htop -bash -openssh-sftp-server
 +endef
