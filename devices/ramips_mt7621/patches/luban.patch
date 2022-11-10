@@ -188,8 +188,8 @@ index 795f567..02c4da8 100644
 +  $(Device/uimage-lzma-loader)
 +  IMAGE_SIZE := 15808k
 +  DEVICE_VENDOR := jdcloud
-+  DEVICE_MODEL := Luban
-+  DEVICE_PACKAGES += kmod-mt7915e uboot-envtools
++  DEVICE_MODEL := Luban 鲁班
++  DEVICE_PACKAGES += kmod-mt7915e uboot-envtools wpad-mini -wpad-basic-wolfssl -coremark -htop -bash -openssh-sftp-server
 +endef
 +TARGET_DEVICES += jdcloud_luban
 +
